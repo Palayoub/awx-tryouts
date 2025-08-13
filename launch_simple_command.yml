@@ -3,4 +3,5 @@
   hosts: 4.251.106.69
   tasks:
     - name: update
-      shell: sudo apt update
+      become: true
+      shell: apt update
