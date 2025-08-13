@@ -2,5 +2,5 @@
 - name: Installer Docker sur VM Ubuntu
   hosts: 4.251.106.69
   tasks:
-    - name: ping google
-      shell: ping -c 3 8.8.8.8
+    - name: update
+      shell: apt update
